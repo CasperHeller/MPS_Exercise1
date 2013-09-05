@@ -1,0 +1,37 @@
+﻿Build started 30-08-2013 11:15:24.
+     1>Project "C:\Users\Casper H\Dropbox\IHA Programmering\3. Semester\MPS\Øvelse 1 MPS\Øvelse 1 MPS\Øvelse 1 MPS.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Øvelse 1 MPS.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt formatter.c text_formatter.c
+         text_formatter.c
+     1>c:\users\casper h\dropbox\iha programmering\3. semester\mps\øvelse 1 mps\øvelse 1 mps\text_formatter.c(32): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+         formatter.c
+     1>c:\users\casper h\dropbox\iha programmering\3. semester\mps\øvelse 1 mps\øvelse 1 mps\formatter.c(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\casper h\dropbox\iha programmering\3. semester\mps\øvelse 1 mps\øvelse 1 mps\formatter.c(116): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\casper h\dropbox\iha programmering\3. semester\mps\øvelse 1 mps\øvelse 1 mps\formatter.c(122): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Øvelse 1 MPS.exe.embed.manifest.res" "Debug\Øvelse 1 MPS_manifest.rc" 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Casper H\Dropbox\IHA Programmering\3. Semester\MPS\Øvelse 1 MPS\Debug\Øvelse 1 MPS.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Øvelse 1 MPS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Casper H\Dropbox\IHA Programmering\3. Semester\MPS\Øvelse 1 MPS\Debug\Øvelse 1 MPS.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Casper H\Dropbox\IHA Programmering\3. Semester\MPS\Øvelse 1 MPS\Debug\Øvelse 1 MPS.lib" /MACHINE:X86 "Debug\Øvelse 1 MPS.exe.embed.manifest.res"
+         Debug\formatter.obj
+         Debug\text_formatter.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Øvelse 1 MPS.exe.embed.manifest" /manifest "Debug\Øvelse 1 MPS.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Øvelse 1 MPS.vcxproj -> C:\Users\Casper H\Dropbox\IHA Programmering\3. Semester\MPS\Øvelse 1 MPS\Debug\Øvelse 1 MPS.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Øvelse 1 MPS.unsuccessfulbuild".
+         Touching "Debug\Øvelse 1 MPS.lastbuildstate".
+     1>Done Building Project "C:\Users\Casper H\Dropbox\IHA Programmering\3. Semester\MPS\Øvelse 1 MPS\Øvelse 1 MPS\Øvelse 1 MPS.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.06
